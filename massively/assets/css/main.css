@@ -2962,7 +2962,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			header br {
-				display: none;
+				display: block;
 			}
 
 		}
@@ -3207,9 +3207,9 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../../massively/images/bg.jpg");
-			/* background-image: url("../../../image/123.png"); */
-			background-size: 100% auto;
+			/* background-image: url("../../../massively/images/bg.jpg"); */
+			background-image: url("../../../image/S__58245303.jpg");
+			background-size: 100% cover;
 			background-position: top center;
 			background-repeat: no-repeat;
 			background-attachment: scroll;
@@ -3250,7 +3250,8 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-image: url("../../../image/S__58253315.jpg");
+				background-size: cover, contain, contain;
 			}
 
 		}
