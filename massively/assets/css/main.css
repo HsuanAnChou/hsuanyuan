@@ -3732,7 +3732,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 1rem;
 					outline: none;
 					padding: 0 2rem;
 				}
@@ -3753,6 +3753,11 @@ input, select, textarea {
 						#nav ul.links li.active a:hover {
 							color: #18bfef !important;
 						}
+
+				#nav ul.links li.inactive {
+					background-color: #424242;
+					opacity:0.5;
+				}
 
 		#nav ul.icons {
 			-moz-flex-grow: 0;
